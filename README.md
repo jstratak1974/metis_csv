@@ -32,7 +32,7 @@ py metis_csv_explorer.py
 - `CTIQ_*.csv`
 - `CTSIZE_*.csv`
 - `CTRDSREVENTS_*.csv`
-- `CTORGANDOSE_*.csv` (also accepts `CTORGANSOE_*.csv`)
+- `CTORGANDOSE_*.csv` 
 - `CTSERIESTAGS_*.csv`
 - `CT_IQ_Dose_Size_*.csv`
 
