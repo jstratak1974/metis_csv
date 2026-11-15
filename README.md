@@ -40,9 +40,7 @@ py metis_csv_explorer.py
 
 - The app runs offline and does not send data to any service.
 - It never modifies source CSVs.
-- It **does not join raw files automatically**, because one-to-many irradiation-event relationships can duplicate data. For series-level analysis prefer the merged exporter CSV and validate associations.
 - A missing-value flag recognizes blanks and common null markers (`N/A`, `null`, etc.).
 - Readable labels and inferred column categories do **not** establish units or scientific validity. Verify WED, effective size, NPS, MTF, organ-dose and RDSR field units with the exporter documentation.
-- Some source CSVs contain patient IDs, birth dates, accession numbers, UIDs, institution names and other potentially identifiable metadata. The optional **Hide sensitive columns** toggle applies to the current-view export, **not** the Export all datasets function. Treat all exported workbooks as potentially sensitive.
-- Values that resemble dates/identifiers are preserved as text rather than converted by Excel. Other numeric columns become numerical cells where possible. Formula-like text is escaped.
+- The optional **Hide sensitive columns** toggle applies to the current-view export, **not** the Export all datasets function. Treat all exported workbooks as potentially sensitive.
 - `CTSERIESTAGS` may contain lengthy multi-value entries; a table cell shows a preview, while double-click shows the complete value.
